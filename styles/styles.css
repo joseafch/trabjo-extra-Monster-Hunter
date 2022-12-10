@@ -229,4 +229,26 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.universe-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: gray;
+  margin-top: 60px;
+}
+
+.universe-letters {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.img-universe {
+  width: 20%;
 }/*# sourceMappingURL=styles.css.map */

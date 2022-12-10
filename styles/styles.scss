@@ -180,3 +180,16 @@ padding: 20px;
 .weapons{
     @include flexelmen (column,center,center)
 }
+.universe-box{
+    @include flexelmen (row,center,center);
+    width:100%;
+    color: gray;
+    margin-top: 60px;
+}
+.universe-letters{
+    @include flexelmen (column,center,center);
+    width:20%;
+}
+.img-universe{
+    width: 20%;
+}
