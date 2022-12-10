@@ -1,0 +1,6 @@
+@mixin flexelmen  ($direction,$justify,$aligs){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $aligs;
+}
