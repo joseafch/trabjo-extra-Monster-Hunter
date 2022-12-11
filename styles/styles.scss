@@ -180,6 +180,10 @@ padding: 20px;
 .weapons{
     @include flexelmen (column,center,center)
 }
+.universe{
+    @include flexelmen (column,center,center);
+    margin-bottom: 20px;
+}
 .universe-box{
     @include flexelmen (row,center,center);
     width:100%;
@@ -192,4 +196,39 @@ padding: 20px;
 }
 .img-universe{
     width: 20%;
+}
+.footer-box{
+    @include flexelmen(row,space-evenly,center);
+    gap: 20px;
+    background-color: #2d0c0c;
+
+
+}
+.footer-list{
+    list-style: none;
+    color: gray;
+    padding: 0px;
+}
+.footer-enlaces{
+    background-color: #2d0c0c;
+    padding: 10px;
+}
+.footer-enlaces__tittle{
+    color: white;
+}
+.legal-link{
+    @include flexelmen(row,space-around,center);
+    padding: 10px;
+    color: yellow;
+}
+.legal-link__cookies{
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+
+}
+.link-cookies{
+    text-decoration: none;
+    color: #00a2ff;
 }
